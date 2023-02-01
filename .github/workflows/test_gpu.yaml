@@ -2,7 +2,7 @@ name: test_gpu
 on: [push]
 jobs:
   run:
-    runs-on: self-hosted,Linux,cml,gpu
+    runs-on: cml-aqvoruujpb
     steps:
       - uses: actions/checkout@v2
       - name: cml_run
